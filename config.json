@@ -1,0 +1,31 @@
+{
+  "general" : {
+    "url" : "https://libproxy.usc.edu/login?url=https://osiris.bvdinfo.com/version-2012823/ip",
+    "ssoWaitTime" : 10,
+    "osirisLoadTime" : 40,
+    "searchLoadTime" : 180,
+    "pdfLoadTime" : 25,
+    "maxThreads" : 4
+  },
+  "browser" : {
+    "name" : "chrome",
+    "incognito" : ""
+  },
+  "credentials" : {
+    "username" : "USC_id",
+    "password" : "pwd"
+  },
+  "storage" : {
+    "path" : "Absolute\\Path\\to\\Download\\Directory"
+  },
+  "searchConfig" : {
+    "words" : "",
+    "company" : ["Schneider Electric SE","Air Liquide SA","Hermes International SA","Kering SA","Societe Generale SA","Orange SA","Engie SA","Safran SA","Pernod Ricard SA","Renault SA"],
+    "country" : ["France"],
+    "year" : [""],
+    "type" : "Annual Report",
+    "language" : ["English"],
+    "specificPageStart" : -1,
+    "specificPageEnd" : -1
+  }
+}
